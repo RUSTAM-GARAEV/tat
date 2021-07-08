@@ -1,0 +1,201 @@
+
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+<meta charset="utf-8"> 
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="css/slider.css">
+<link rel="stylesheet" type="text/css" href="css/slider-dots.css">
+<!--<link rel="shortcut icon" href="http://www.asus.com/images/favicon.ico" type="image/x-icon" />-->
+<link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DARLY</title>
+</head>
+
+<body>
+<header>
+	<div class="main-top">
+		<div class="header-t clearfix">
+			<p class="asus">
+				<a href="#"><img src="images/asus-logo.png" alt="asus-logo"></a><p class="tra">  
+                
+               <span style="font-family:Lucida Sans Unicode"></span> 
+
+                <p>
+			</p>
+            <p class="tel">
+					
+				</p>
+			<div class="tel-basket">
+				<p class="tel">
+					<img src="images/i-phone.png" alt="icon phone">+447826879370
+				</p>
+				<p class="basket">
+					<img src="images/i-basket.png" alt="icon basket">m1nsky@yahoo.co.uk </a> 
+				</p>
+			</div>
+		</div>
+		<div class="header-b clearfix">
+			<nav>
+				<ul class="menu">
+					<li class="activ"><a href="index.html">ABOUT COMPANY</a> </li>
+					<li class="activ"><a href="PRODUCTS.html">PRODUCTS</a></li>
+					<li class="activ"><a href="price.pdf">PRICES</li>
+					<li class="activ"><a href="ourteam.html">OUR TEAM/CONTACTS</a></li>
+				</ul>
+			</nav>
+			
+				</form>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="main-middle3 main-top clearfix">
+    <h2 class="activ">OUR TEAM/CONTACTS </h2>
+	<article>
+		<a href="#">
+			<img src="images/igor.jpg" alt="">
+		</a>
+		
+			<h2 class="igor">Igor Mordukhay</h2>
+		
+		<h1>President
+		</h1>
+        
+        <br>
+			<span>E-MAIL: m1nsky@yahoo.co.uk <br>
+					Tel.:+447826879370</span>
+        
+        
+        
+	</article>
+	<article>
+		<a href="">
+			<img src="images/rustam.jpg" alt="">
+		</a>
+		<h2>
+			Rustam Garaev
+		</h2>
+		<h1>Vice-President
+		</h1>
+         <br>
+			<span>E-MAIL: eestirustam@mail.ru <br>
+					Tel.:+447459780861</span>
+        
+	</article>
+	<article>
+		<a href="">
+			<img src="images/aydar.jpg" alt="">
+		</a>
+		<h2>
+			Aydar Agliullin
+		</h2>
+		<h1>Official Representative in Russian Federation
+		</h1>
+        
+        <br>
+			<span>E-MAIL: aidar-agliulin@mail.ru <br>
+					Tel.:+79172860601</span>
+        
+	</article>
+</div>
+
+
+<!--       Футер          -->
+<!--       Загрузки Руководства, Драйверы, Прошивки и Программы          -->
+<div class="drivers-100">
+	<div class="drivers-1166 main-top  clearfix">
+		 <h3>
+SPECIAL OFFER</h3>
+		 
+	</div>
+</div>
+<!--       Загрузки Руководства, Драйверы, Прошивки и Программы          -->
+<!--       Футер          -->
+<footer class="foot">
+	<div class="middle4-article main-top clearfix">
+		
+		
+         <article class="my">
+		<h2>OUR ADDRESS (UK)</h2>
+		<div class="foot-text">
+			<p>
+			 <a href="#">E11 4HS, UK London</a>
+			<br>
+			<span>From Monday to Friday <br>
+					from 9 a.m. to 7 p.m.</span>
+			</p>
+		</div>
+		</article>
+        
+		<article>
+		<h2>OUR CONTACTS (UK)</h2>
+		<div class="foot-text">
+			<form>
+			
+				<input type="submit" class="foot-submit" value="+447826879370
+               ">
+			</form>
+		</div>
+		</article>
+       
+       <article class="my">
+		<h2>RUSSIAN BRANCH</h2>
+		<div class="foot-text">
+			<p>
+			 <a href="#">TATARSTAN</a>
+			<br>
+			<span>From Monday to Friday <br>
+					from 9 a.m. to 7 p.m.</span>
+			</p>
+		</div>
+		</article>
+        
+		<article>
+		<h2>OUR CONTACTS (RUSSIAN FEDERATION)</h2>
+		<div class="foot-text">
+			<form>
+			
+           
+            
+            
+				<input type="submit" class="foot-submit" value="+79172860601
+                 aidar-agliulin@mail.ru">   
+			</form>
+		</div>
+		</article>
+        
+	</div>
+
+</footer>
+<!--       /Футер          -->
+<script src="js/jquery-2.2.2.min.js"></script>
+<script src="js/slider.js"></script>
+	<script>
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider({
+			nav:true,
+			autoplay:true,
+			arrows:false,
+			delay:3000,
+			speed:750,
+			animation:'horizontal',/*'horizontal' 'vertical' */
+			});
+		});
+	</script>
+    <!-----      Выравнивание колонок         ----->	
+	<script>
+	function setEqualHeight(columns) { 
+		var heightcolumn = 0; 
+		columns.each( function() { 
+			currentHeight = $(this).height(); 
+			if(currentHeight > heightcolumn) { heightcolumn = currentHeight; } } ); 
+			columns.height(heightcolumn); 
+		} 
+		
+		$(document).ready(function() { setEqualHeight($(".level-0l")); });
+</script>
+<!-----      /Выравнивание колонок         ----->
+</body>
+</html>
